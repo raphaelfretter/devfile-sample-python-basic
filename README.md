@@ -1,3 +1,7 @@
+Note: This fork was altered to work with a RedHat Open Shift pipeline configuration.
+  * Moved the app.py and the yamls to an app directory.
+  * Altered the Dockerfile to point at the new location of app.py.
+
 # Creating an application with a Python code sample
 
 **Note:** The Python code sample uses the **8081** HTTP port.
